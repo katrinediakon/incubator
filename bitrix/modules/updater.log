@@ -1,0 +1,6 @@
+2019-08-07 13:49:37 -  - exec CUpdateClient::GetUpdatesList
+2019-08-07 13:49:37 -  - exec CUpdateClient::CollectRequestData
+2019-08-07 13:49:37 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.5.100&VERSION=18.5.180&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www&CHHB=www&CSAB=127.0.0.1&SUID=c5dde868c27c667a9faee2e0f2274a95&CANGZIP=Y&CLIENT_PHPVER=7.0.33-8%2Bubuntu18.04.1%2Bdeb.sury.org%2B1&stable=Y&NGINX=Y&SMD=N&rerere=Y&bitm_main=18.5.180&bitm_perfmon=18.5.0&bitm_landing=18.6.75&bitm_fileman=18.5.400&bitm_seo=18.6.100&bitm_messageservice=18.0.3&bitm_bitrixcloud=18.5.0&bitm_form=18.0.0&bitm_scale=17.5.0&bitm_subscribe=18.5.0&bitm_socialservices=18.5.100&bitm_blog=18.1.0&bitm_iblock=18.6.400&bitm_mobileapp=18.5.100&bitm_forum=18.0.5&bitm_clouds=18.0.0&bitm_search=18.5.200&bitm_photogallery=18.0.0&bitm_rest=18.5.7&bitm_compression=16.0.0&bitm_b24connector=18.5.0&bitm_highloadblock=18.5.100&bitm_security=18.5.1&bitm_translate=18.0.0&bitm_vote=17.5.1&bitm_ui=18.5.150&bitl_ru=&bitl_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-N
+2019-08-07 13:49:37 -  - exec CUpdateClient::GetHTTPPage
+2019-08-07 13:49:37 -  - TIME GetUpdatesList(request) 0.227 sec
+2019-08-07 13:49:37 -  - exec CUpdateClient::ParseServerData

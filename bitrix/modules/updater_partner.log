@@ -1,0 +1,24 @@
+2019-08-07 11:36:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-08-07 11:36:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-08-07 11:36:38 -  - exec CUpdateClientPartner::ParseServerData
+2019-08-07 11:36:38 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-08-07 11:36:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-08-07 11:36:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.33-8%2Bubuntu18.04.1%2Bdeb.sury.org%2B1&NGINX=Y&dbv=5.7.27&instm=main%2C18.5.180%2CY%3Bperfmon%2C18.5.0%2CN%3Blanding%2C18.6.75%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bfileman%2C18.5.400%2CN%3Bseo%2C18.6.100%2CN%3Bmessageservice%2C18.0.3%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bform%2C18.0.0%2CN%3Bscale%2C17.5.0%2CN%3Bsubscribe%2C18.5.0%2CN%3Bsocialservices%2C18.5.100%2CN%3Bblog%2C18.1.0%2CN%3Biblock%2C18.6.400%2CN%3Bmobileapp%2C18.5.100%2CN%3Bforum%2C18.0.5%2CN%3Bclouds%2C18.0.0%2CN%3Bsearch%2C18.5.200%2CN%3Bphotogallery%2C18.0.0%2CN%3Brest%2C18.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C18.5.100%2CN%3Bsecurity%2C18.5.1%2CN%3Btranslate%2C18.0.0%2CN%3Bvote%2C17.5.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bui%2C18.5.150%2CN&reqm=bitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.sitepersonal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-08-07 11:36:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-08-07 11:36:39 -  - TIME GetUpdatesList(request) 0.327 sec
+2019-08-07 11:36:39 -  - exec CUpdateClientPartner::ParseServerData
+2019-08-07 11:36:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-08-07 11:36:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-08-07 11:36:39 -  - exec CUpdateClientPartner::ParseServerData
+2019-08-08 11:40:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-08-08 11:40:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-08-08 11:40:07 -  - exec CUpdateClientPartner::ParseServerData
+2019-08-08 11:40:07 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-08-08 11:40:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-08-08 11:40:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.33-10%2Bubuntu18.04.1%2Bdeb.sury.org%2B1&NGINX=Y&dbv=5.7.27&instm=main%2C18.5.180%2CY%3Bperfmon%2C18.5.0%2CN%3Blanding%2C18.6.75%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bfileman%2C18.5.400%2CN%3Bseo%2C18.6.100%2CN%3Bmessageservice%2C18.0.3%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bform%2C18.0.0%2CN%3Bscale%2C17.5.0%2CN%3Bsubscribe%2C18.5.0%2CN%3Bsocialservices%2C18.5.100%2CN%3Bblog%2C18.1.0%2CN%3Biblock%2C18.6.400%2CN%3Bmobileapp%2C18.5.100%2CN%3Bforum%2C18.0.5%2CN%3Bclouds%2C18.0.0%2CN%3Bsearch%2C18.5.200%2CN%3Bphotogallery%2C18.0.0%2CN%3Brest%2C18.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C18.5.100%2CN%3Bsecurity%2C18.5.1%2CN%3Btranslate%2C18.0.0%2CN%3Bvote%2C17.5.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bui%2C18.5.150%2CN&reqm=bitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.sitepersonal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-08-08 11:40:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-08-08 11:40:08 -  - TIME GetUpdatesList(request) 0.35 sec
+2019-08-08 11:40:08 -  - exec CUpdateClientPartner::ParseServerData
+2019-08-08 11:40:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-08-08 11:40:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-08-08 11:40:08 -  - exec CUpdateClientPartner::ParseServerData

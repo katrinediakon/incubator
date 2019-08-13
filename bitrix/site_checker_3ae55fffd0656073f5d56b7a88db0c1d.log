@@ -1,0 +1,164 @@
+2019-Aug-09 15:36:14 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2019-Aug-09 15:36:14 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2019-Aug-09 15:36:14 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2019-Aug-09 15:36:14 Значения переменных сервера (check_server_vars): Fail
+Ошибка! Текущий домен не валидный (www). Может содержать только цифры, латинские буквы и дефис. Должен содержать точку.
+2019-Aug-09 15:36:14 Сохранение сессии (check_session): Ok
+50% done
+2019-Aug-09 15:36:14 Сохранение сессии (check_session): Ok
+Успешно
+2019-Aug-09 15:36:14 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2019-Aug-09 15:36:14 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2019-Aug-09 15:36:14 Работа с сокетами (check_socket): Ok
+Connection to www:80	Success
+
+Успешно
+2019-Aug-09 15:36:14 Выполнение агентов на cron (check_bx_crontab): Warning
+Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
+2019-Aug-09 15:36:14 Параметры подключения к базе данных (check_dbconn_settings): Ok
+Успешно
+2019-Aug-09 15:36:14 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to www:80	Success
+
+Успешно
+2019-Aug-09 15:36:14 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to www:80	Success
+
+2019-Aug-09 15:36:14 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to www:80	Success
+
+Успешно
+2019-Aug-09 15:36:14 Настройки сайтов (check_sites): Ok
+Правильные
+2019-Aug-09 15:36:14 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2019-Aug-09 15:36:14 Размер стека и pcre.recursion_limit (check_pcre_recursion): Warning
+Connection to www:80	Success
+
+Замечание. Возможны проблемы в работе с длинными строками из-за системных ограничений
+2019-Aug-09 15:36:14 Загрузка файла (check_upload): Ok
+Connection to www:80	Success
+
+Успешно
+2019-Aug-09 15:36:14 Загрузка файла больше 4Мб (check_upload_big): Fail
+Connection to www:80	Success
+== Request ==
+POST /bitrix/admin/site_checker.php?test_type=upload_test&unique_id=00ff79d47b884241b2571ccea0019dbe&big=1&raw=0 HTTP/1.1
+Host: www
+Content-Type: multipart/form-data; boundary=--------3c691421c429bed5d13dab61371b854b
+Content-Length: 4200195
+
+----------3c691421c429bed5d13dab61371b854b
+Content-Disposition: form-data; name="test_file"; filename="site_checker.bin
+Content-Type: image/gif
+
+()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~����������������������������������������������������������������������������������������������������������������()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~����������������������������������������������������������������������������������������������������������������()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~����������������������������������������������������������������������������������������������������������������()*+ ... (4200442 bytes)
+== Response ==
+HTTP/1.1 200 OK
+Date: Fri, 09 Aug 2019 12:36:14 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Accept-Encoding
+Content-Length: 273
+Content-Type: text/html; charset=UTF-8
+
+== Body ==
+move_uploaded_file(,/home/user/www/bitrix/tmp/site_checker.bin)=false
+$_FILES=
+Array
+(
+    [test_file] => Array
+        (
+            [name] => site_checker.bin
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+==========
+
+Ошибка! Не работает
+2019-Aug-09 15:36:14 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to www:80	Success
+
+Успешно
+2019-Aug-09 15:36:14 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to www:80	Success
+
+Успешно
+2019-Aug-09 15:36:14 Отправка почты (check_mail): Fail
+Ошибка! Не работает
+2019-Aug-09 15:36:14 Отправка почтового сообщения больше 64Кб (check_mail_big): Fail
+Ошибка! Не работает
+2019-Aug-09 15:36:14 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2019-Aug-09 15:36:14 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to www:80	Success
+
+2019-Aug-09 15:36:14 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to www:80	Success
+
+Успешно
+2019-Aug-09 15:36:15 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to www:80	Success
+
+2019-Aug-09 15:36:15 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to www:80	Success
+
+2019-Aug-09 15:36:15 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to www:80	Success
+
+2019-Aug-09 15:36:15 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to www:80	Success
+
+2019-Aug-09 15:36:15 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to www:80	Success
+
+Не менее 256 М
+2019-Aug-09 15:36:15 Работа с файлами кеша (check_cache): Ok
+Успешно
+2019-Aug-09 15:36:17 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2019-Aug-09 15:36:17 HTTP авторизация (check_http_auth): Ok
+Connection to www:80	Success
+
+Успешно
+2019-Aug-09 15:36:17 Создание и запуск файла (check_exec): Ok
+Connection to www:80	Success
+
+Успешно
+2019-Aug-09 15:36:17 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2019-Aug-09 15:36:17 Версия MySQL-сервера (check_mysql_bug_version): Ok
+Успешно
+2019-Aug-09 15:36:18 Время на БД и веб-сервере (check_mysql_time): Ok
+Успешно
+2019-Aug-09 15:36:18 Режим работы MySQL (check_mysql_mode): Fail
+Ошибка! Переменная sql_mode в MySQL должна быть пустая, текущее значение: ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2019-Aug-09 15:36:18 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
+Успешно
+2019-Aug-09 15:36:18 Кодировка базы данных (check_mysql_db_charset): Ok
+CHARSET=utf8, COLLATION=utf8_unicode_ci
+Успешно
+2019-Aug-09 15:36:18 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+Успешно
+2019-Aug-09 15:36:26 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2019-Aug-09 15:37:29 Структура базы данных (check_mysql_table_structure): Ok
+3% done
+2019-Aug-09 15:37:32 Структура базы данных (check_mysql_table_structure): Ok
+7% done

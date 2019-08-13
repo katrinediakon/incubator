@@ -1,0 +1,9 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("");
+?>Регистрация<br>
+ <?$APPLICATION->IncludeComponent(
+	"bitrix:main.register",
+	"",
+Array()
+);?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
