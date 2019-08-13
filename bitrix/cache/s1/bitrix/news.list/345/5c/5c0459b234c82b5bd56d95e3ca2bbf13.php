@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001565688511';
-$dateexpire = '001601688511';
+$datecreate = '001565695275';
+$dateexpire = '001601695275';
 $ser_content = 'a:2:{s:7:"CONTENT";s:270:"<div class="sb_action">
 <a href=""><img src="/bitrix/templates/.default/content/11.png" alt=""/></a>
 <h4>Акция</h4>

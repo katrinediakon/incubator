@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Каталог");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:catalog", 
-	"bootstrap_v4", 
+	".default", 
 	array(
 		"IBLOCK_TYPE" => "products",
 		"IBLOCK_ID" => "2",
@@ -36,7 +36,7 @@ $APPLICATION->SetTitle("Каталог");
 		"PRICE_VAT_INCLUDE" => "N",
 		"PRICE_VAT_SHOW_VALUE" => "N",
 		"SHOW_TOP_ELEMENTS" => "N",
-		"PAGE_ELEMENT_COUNT" => "10",
+		"PAGE_ELEMENT_COUNT" => "5",
 		"LINE_ELEMENT_COUNT" => "1",
 		"ELEMENT_SORT_FIELD" => "sort",
 		"ELEMENT_SORT_ORDER" => "asc",
@@ -64,7 +64,7 @@ $APPLICATION->SetTitle("Каталог");
 		"LINK_IBLOCK_ID" => "",
 		"LINK_PROPERTY_SID" => "",
 		"LINK_ELEMENTS_URL" => "link.php?PARENT_ELEMENT_ID=#ELEMENT_ID#",
-		"DISPLAY_TOP_PAGER" => "N",
+		"DISPLAY_TOP_PAGER" => "Y",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"PAGER_TITLE" => "Продукция",
 		"PAGER_SHOW_ALWAYS" => "N",
@@ -73,7 +73,7 @@ $APPLICATION->SetTitle("Каталог");
 		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000000",
 		"PAGER_SHOW_ALL" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
-		"COMPONENT_TEMPLATE" => "bootstrap_v4",
+		"COMPONENT_TEMPLATE" => ".default",
 		"TEMPLATE_THEME" => "blue",
 		"ADD_PICT_PROP" => "-",
 		"LABEL_PROP" => array(
@@ -120,7 +120,7 @@ $APPLICATION->SetTitle("Каталог");
 		"ELEMENT_SORT_ORDER2" => "desc",
 		"SECTION_BACKGROUND_IMAGE" => "-",
 		"LIST_PRODUCT_BLOCKS_ORDER" => "price,props,sku,quantityLimit,quantity,buttons",
-		"LIST_PRODUCT_ROW_VARIANTS" => "[{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false}]",
+		"LIST_PRODUCT_ROW_VARIANTS" => "[{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false}]",
 		"LIST_ENLARGE_PRODUCT" => "STRICT",
 		"LIST_SHOW_SLIDER" => "Y",
 		"LIST_SLIDER_INTERVAL" => "3000",
@@ -160,8 +160,13 @@ $APPLICATION->SetTitle("Каталог");
 			"sections" => "",
 			"section" => "#SECTION_ID#/",
 			"element" => "#SECTION_ID#/#ELEMENT_ID#/",
-			"compare" => "",
+			"compare" => "compare.php?action=#ACTION_CODE#",
 			"smart_filter" => "#SECTION_ID#/filter/#SMART_FILTER_PATH#/apply/",
+		),
+		"VARIABLE_ALIASES" => array(
+			"compare" => array(
+				"ACTION_CODE" => "action",
+			),
 		)
 	),
 	false
