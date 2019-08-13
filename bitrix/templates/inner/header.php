@@ -18,6 +18,8 @@ IncludeTemplateLangFile(__FILE__);
 	<!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
 </head>
 <body>
+
+
 		<!-- <div id="panel"><?$APPLICATION->ShowPanel();?></div>-->
 	<div class="wrap">
 		<div class="hd_header_area">

@@ -154,8 +154,7 @@ $APPLICATION->SetTitle("Каталог");
 		"COMPATIBLE_MODE" => "Y",
 		"USE_ELEMENT_COUNTER" => "Y",
 		"DISABLE_INIT_JS_IN_COMPONENT" => "N",
-		"LABEL_PROP_MOBILE" => array(
-		),
+		"LABEL_PROP_MOBILE" => "",
 		"LABEL_PROP_POSITION" => "top-left",
 		"SEF_URL_TEMPLATES" => array(
 			"sections" => "",

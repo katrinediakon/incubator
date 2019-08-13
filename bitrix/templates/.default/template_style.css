@@ -13,7 +13,7 @@ input{outline:none !important}
 	padding-top: 14px;
 }
 .hd_header{
-	width: 57%;
+	width:995px;
 	margin:0 auto;
 	height: 144px;
 	position:relative;
@@ -189,6 +189,7 @@ color: #0073A3;
 	background:rgba(38,118,181,.16);
 	padding:3px;
 	border-radius:6px;
+	    WIDTH: 100%;
 	position:relative;
 	bottom:-17px;
 }

@@ -45,8 +45,8 @@
       </table>
       <?
       $APPLICATION->IncludeComponent(
-	"bitrix:menu", 
-	"top_multi", 
+	"bitrix:menu",
+	"top_multi",
 	array(
 		"ALLOW_MULTI_SELECT" => "N",
 		"CHILD_MENU_TYPE" => "left",
