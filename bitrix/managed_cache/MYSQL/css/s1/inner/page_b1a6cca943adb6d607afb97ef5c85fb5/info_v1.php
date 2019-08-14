@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/templates/.default/components/bitrix/menu/horizontal/style.css" => "15653500243715",); ?>

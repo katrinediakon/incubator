@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/components/bitrix/menu/templates/tree/script.js" => "1565166501170",); ?>
