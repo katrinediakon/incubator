@@ -1,8 +1,8 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001565687727';
-$dateexpire = '001601687727';
-$ser_content = 'a:2:{s:7:"CONTENT";s:3198:"<div id="bx_incl_area_5_1"></div><table class="map-columns">
+$datecreate = '001565772207';
+$dateexpire = '001601772207';
+$ser_content = 'a:2:{s:7:"CONTENT";s:3198:"<div id="bx_incl_area_6_1"></div><table class="map-columns">
 <tr>
 	<td>
 		<ul class="map-level-0">

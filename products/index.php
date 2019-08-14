@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Каталог");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:catalog", 
-	".default", 
+	"template", 
 	array(
 		"IBLOCK_TYPE" => "products",
 		"IBLOCK_ID" => "2",
@@ -24,9 +24,9 @@ $APPLICATION->SetTitle("Каталог");
 		"CACHE_GROUPS" => "Y",
 		"DISPLAY_PANEL" => "N",
 		"SECTION_SHOW_PARENT_NAME" => "N",
-		"SET_TITLE" => "Y",
+		"SET_TITLE" => "N",
 		"SET_STATUS_404" => "Y",
-		"USE_FILTER" => "N",
+		"USE_FILTER" => "Y",
 		"USE_COMPARE" => "N",
 		"PRICE_CODE" => array(
 			0 => "PRICE",
@@ -58,7 +58,7 @@ $APPLICATION->SetTitle("Каталог");
 		),
 		"DETAIL_META_KEYWORDS" => "-",
 		"DETAIL_META_DESCRIPTION" => "-",
-		"DETAIL_BROWSER_TITLE" => "-",
+		"DETAIL_BROWSER_TITLE" => "rating",
 		"DETAIL_SHOW_PICTURE" => "Y",
 		"LINK_IBLOCK_TYPE" => "",
 		"LINK_IBLOCK_ID" => "",
@@ -73,16 +73,17 @@ $APPLICATION->SetTitle("Каталог");
 		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000000",
 		"PAGER_SHOW_ALL" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
-		"COMPONENT_TEMPLATE" => ".default",
+		"COMPONENT_TEMPLATE" => "template",
 		"TEMPLATE_THEME" => "blue",
 		"ADD_PICT_PROP" => "-",
 		"LABEL_PROP" => array(
+			0 => "Availability",
 		),
 		"MESS_BTN_BUY" => "Купить",
 		"MESS_BTN_ADD_TO_BASKET" => "В корзину",
 		"MESS_BTN_COMPARE" => "Сравнение",
 		"MESS_BTN_DETAIL" => "Подробнее",
-		"MESS_NOT_AVAILABLE" => "Нет в наличии",
+		"MESS_NOT_AVAILABLE" => "",
 		"MESS_BTN_SUBSCRIBE" => "Подписаться",
 		"SIDEBAR_SECTION_SHOW" => "Y",
 		"SIDEBAR_SECTION_POSITION" => "right",
@@ -129,7 +130,7 @@ $APPLICATION->SetTitle("Каталог");
 		"DETAIL_CHECK_SECTION_ID_VARIABLE" => "N",
 		"DETAIL_BACKGROUND_IMAGE" => "-",
 		"SHOW_DEACTIVATED" => "N",
-		"DETAIL_USE_VOTE_RATING" => "N",
+		"DETAIL_USE_VOTE_RATING" => "Y",
 		"DETAIL_USE_COMMENTS" => "N",
 		"DETAIL_BRAND_USE" => "N",
 		"DETAIL_DISPLAY_NAME" => "Y",
@@ -154,8 +155,22 @@ $APPLICATION->SetTitle("Каталог");
 		"COMPATIBLE_MODE" => "Y",
 		"USE_ELEMENT_COUNTER" => "Y",
 		"DISABLE_INIT_JS_IN_COMPONENT" => "N",
-		"LABEL_PROP_MOBILE" => "",
-		"LABEL_PROP_POSITION" => "top-left",
+		"LABEL_PROP_MOBILE" => array(
+			0 => "Availability",
+		),
+		"LABEL_PROP_POSITION" => "middle-right",
+		"FILTER_NAME" => "",
+		"FILTER_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"FILTER_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"FILTER_PRICE_CODE" => array(
+		),
+		"DETAIL_VOTE_DISPLAY_AS_RATING" => "rating",
 		"SEF_URL_TEMPLATES" => array(
 			"sections" => "",
 			"section" => "#SECTION_ID#/",

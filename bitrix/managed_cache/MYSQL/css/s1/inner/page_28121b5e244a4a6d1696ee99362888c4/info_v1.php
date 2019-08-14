@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/components/bitrix/menu/templates/catalog_vertical/style.css" => "15656946585854","/bitrix/components/bitrix/menu/templates/catalog_vertical/themes/wood/colors.css" => "1565694658498",); ?>

@@ -1,1 +1,1 @@
-<?php $filesInfo = array("/bitrix/js/main/polyfill/promise/js/promise.js" => "15651664992213",); ?>
+<?php $filesInfo = array("/bitrix/js/main/polyfill/promise/js/promise.js" => "15656946582213",); ?>
